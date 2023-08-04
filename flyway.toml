@@ -7,8 +7,8 @@ url = "jdbc:sqlserver://is-sql2012.testnet.red-gate.com;databaseName=SamB_Test1;
 displayName = "Dev: SamB_Test1 on is-sql2012"
 
 [environments.shadow]
-url = "jdbc:sqlserver://localhost;databaseName=WidgetZShadow;encrypt=true;integratedSecurity=true;trustServerCertificate=true"
-displayName = "Shadow"
+url = "jdbc:sqlserver://is-sql2012.testnet.red-gate.com;databaseName=SamB_Test2;encrypt=true;integratedSecurity=true;trustServerCertificate=true"
+displayName = "Shadow: SamB_Test2 on is-sql2012.testnet.red-gate.com"
 
 [environments.production]
 url = "jdbc:sqlserver://localhost;databaseName=WidgetProd;encrypt=true;integratedSecurity=true;trustServerCertificate=true"
